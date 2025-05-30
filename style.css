@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.text-input-container {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+#textInput {
+    flex: 1;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #2d2d2d;
+    color: #ffffff;
+    font-size: 16px;
+    resize: vertical;
+    min-width: 200px;
+}
+
+#searchInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #2d2d2d;
+    color: #ffffff;
+    font-size: 16px;
+    min-width: 200px;
+}
+
+#searchButton, #backButton, #addTextButton, #refreshButton, #applyTextButton {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#searchButton {
+    background-color: #4CAF50;
+}
+
+#searchButton:hover {
+    background-color: #45a049;
+}
+
+#backButton {
+    background-color: #2196F3;
+}
+
+#backButton:hover {
+    background-color: #1976D2;
+}
+
+#addTextButton {
+    background-color: #FF9800;
+}
+
+#addTextButton:hover {
+    background-color: #F57C00;
+}
+
+#refreshButton {
+    background-color: #9C27B0;
+}
+
+#refreshButton:hover {
+    background-color: #7B1FA2;
+}
+
+#applyTextButton {
+    background-color: #00BCD4;
+}
+
+#applyTextButton:hover {
+    background-color: #0097A7;
+}
+
+#textArea {
+    width: 100%;
+    height: 800px;
+    padding: 20px;
+    background-color: #2d2d2d;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+.highlight {
+    background-color: #ffeb3b;
+    color: #000000;
+    padding: 2px;
+    border-radius: 3px;
+} 

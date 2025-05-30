@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metin Arama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Aranacak kelime veya cümleyi girin...">
+            <button id="searchButton">Ara</button>
+            <button id="backButton">Geri Dön</button>
+            <button id="addTextButton">Metin Ekle</button>
+            <button id="refreshButton">Yenile</button>
+        </div>
+        <div class="text-input-container">
+            <textarea id="textInput" placeholder="Buraya metninizi yapıştırın..."></textarea>
+            <button id="applyTextButton">Metni Uygula</button>
+        </div>
+        <div id="textArea" contenteditable="false"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
